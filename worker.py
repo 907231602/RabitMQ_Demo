@@ -1,8 +1,9 @@
 #!/usr/bin/env python3.5.2
 # -*- coding: utf-8 -*-
-
+#参考：http://blog.csdn.net/zhangfh1990/article/details/72677093
 import pika
 import time
+
 
 #新的消费者，轮询派发（Round-robin dispatching）
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))

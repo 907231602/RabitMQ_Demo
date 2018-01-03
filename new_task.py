@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.5.2
 # -*- coding: utf-8 -*-
-
+#参考：http://blog.csdn.net/zhangfh1990/article/details/72677093
 import pika
 import sys
 
